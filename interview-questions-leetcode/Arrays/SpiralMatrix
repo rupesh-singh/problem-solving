@@ -1,0 +1,40 @@
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        int rowLast=matrix.length, rowFirst=0;
+        int columnLast=0, columnFirst=0;
+        if(rowLast==0)
+            columnLast=0;
+        else
+            columnLast=matrix[0].length;
+        List<Integer> li = new ArrayList<>();
+        while(rowFirst<rowLast && columnFirst<columnLast){
+        
+        /* Print First Row */
+        for(int i = columnFirst; i <columnLast; i++)
+            li.add(matrix[rowFirst][i]);
+        
+        rowFirst++;
+        /* Print Last Column */
+        for(int j = rowFirst; j<rowLast;j++)
+            li.add(matrix[j][columnLast-1]);
+        
+        columnLast--;
+  
+        if(rowFirst<rowLast){
+        for(int i = columnLast-1; i>=columnFirst;i--)
+            li.add(matrix[rowLast-1][i]);
+        
+        rowLast--;
+        }
+        
+        if(columnFirst<columnLast){
+        for(int j=rowLast-1;j>=rowFirst;j--)
+            li.add(matrix[j][columnFirst]);
+        
+        columnFirst++;
+        }
+        
+        }
+        return li;
+    }
+}
