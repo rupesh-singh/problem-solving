@@ -1,0 +1,23 @@
+Syncronization:
+
+https://javahungry.blogspot.com/2015/11/5-difference-between-sleep-and-wait-with-example.html 
+
+https://javahungry.blogspot.com/2017/07/difference-between-callable-and-runnable-in-java.html
+
+https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+
+https://www.javacodegeeks.com/2016/12/implement-thread-pool-java.html 
+
+(CountDownLatch, CyclicBarrier, Exchanger, Semaphore) =>
+http://tutorials.jenkov.com/java-util-concurrent/lock.html 
+
+
+Java Jdbc:
+
+https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html
+
+Custom iterator:
+
+https://dzone.com/articles/creating-a-custom-linked-list-implementation
+
+
