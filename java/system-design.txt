@@ -1,0 +1,25 @@
+System Design:
+-Replication
+-Consistency
+-Sharding
+-Partition tolerant
+
+
+CAP Theorem
+-Consistency
+-Availability
+-Partition Tolerant
+
+
+Design Cache:
+    -Type of Caching System
+        -Write Through Cache: Write to cache and DB (2 Write Operation): Costly
+        -Write Around Cache: Write to DB. Cache System reads from DB incase of miss: 
+        -Write back Cache: Write to Cache. Cache will asyncronly Write to DB. (Might let to loss of Data)
+
+Problem Approach:
+    - feature Extraction: Main goal of the system Suggested.
+    - Estimation: Decide how scalable our system should be. QPS (Query / Secoond) Comes handy.
+    - Design Goals: Can be many but most common (Latency, Availability, Consistency)
+    - Deep Dive: Discuss in Detail
+    

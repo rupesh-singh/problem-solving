@@ -1,4 +1,13 @@
 Syncronization:
+    - Object Level Syncronization
+    - Class Level Syncronization
+    - Block Level Syncronization
+    - Threads
+    - Runnable/ Threads / callable
+    - Thread pool - implementation
+    - ExecutorServices
+    - Concurrent HashMap
+    - CountDownLatch/ CyclicBarrier / Exchanger / Semaphore
 
 https://javahungry.blogspot.com/2015/11/5-difference-between-sleep-and-wait-with-example.html 
 
@@ -15,6 +24,10 @@ http://tutorials.jenkov.com/java-util-concurrent/lock.html
 Java Jdbc:
 
 https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html
+
+Collections:
+    - All Collections(Interface, class, hierarchy)
+    - 
 
 Custom iterator:
 
